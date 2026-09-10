@@ -1,24 +1,65 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Verity Clicker</title> <link rel="stylesheet" href="style.css"> </head> <body>
+<main class="game">
+
+    <header>
+        <h1>Verity Clicker</h1>
+        <p class="subtitle">Click Verity. </p>
+    </header>
+
+    <section class="game-card">
+
+        <div class="score-box">
+            <span>VERITY POINTS</span>
+            <strong id="score">0</strong>
+        </div>
+
+        <h2>Click Verity!</h2>
+        
+        <button class="verity-button" onclick="clickVerity()">
+            <img src="https://static.wikia.nocookie.net/verityminecraft/images/1/1a/Verity.png/revision/latest/scale-to-width/360?cb=20260826165954"
+                 alt="Verity">
+        </button>
+
+        <p class="click-text">Click the Verity to earn points!</p>
+
+        <audio controls>
+            <source src="[Verity]Hello......ker! .mp3" type="audio/mpeg">
+      
+        </audio>
+
+    </section> 
+
+    <section class="info-card">
+        <h3>About Verity Clicker</h3>
+
+        <p>
+            Welcome to Verity Clicker! Click on Verity to earn points
+        </p>
+    </section>
+
+    <section class="info-card">
+        <h3>Ask Verity Anything!</h3>
+     <h76>Ask Verity</h76>
+        
+        
+    </section>
+
+</main>
+
+<script>
+    let score = 0;
+
+    function clickVerity() {
+     score ++
+        document.getElementById("score").textContent = score;
+    }
+ 
 
 
-   
 
-</body>
-</html>
+</script>
+
+<input type>
+</body> </html>
 
 
-<h1>welcome to verity clicker!</h1>
-<h2>click!</h2>
-<button><img src="https://static.wikia.nocookie.net/verityminecraft/images/1/1a/Verity.png/revision/latest/scale-to-width/360?cb=20260826165954" alt=""></button> 
-
-<button type= increase "1"></button>
-<h3>"1"</h3>
-<button disabled="disabled">1</button> <button type="reset"></button>
